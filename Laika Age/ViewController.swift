@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var dogAgeTextField: UITextField!
+    @IBOutlet weak var dogYearsLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +24,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func dogAgePressed(sender: AnyObject) {
+        let stringFromTextField = dogAgeTextField.text
+        let optionalIntFromTextField = stringFromTextField.toInt()
+        let intFromOptional = optionalIntFromTextField!
+        
+        dogYearsLabel.text = "\(intFromOptional * 7)"
+        dogYearsLabel.hidden = false
+        dogAgeTextField.resignFirstResponder()
+    }
 
 }
 
