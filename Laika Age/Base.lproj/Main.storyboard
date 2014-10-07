@@ -25,7 +25,7 @@
                                 <rect key="frame" x="222" y="60" width="82" height="30"/>
                                 <state key="normal" title="CONVERT"/>
                                 <connections>
-                                    <action selector="dogAgePressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ETS-DH-i21"/>
+                                    <action selector="convertToRealDogYearsButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9RR-Qw-Uco"/>
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06G-uo-UUO">
@@ -55,8 +55,8 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="dogAgeTextField" destination="Xz1-Jv-ozv" id="QQX-AW-pnJ"/>
                         <outlet property="dogYearsLabel" destination="06G-uo-UUO" id="DJz-eF-rvK"/>
+                        <outlet property="enterHumanYearsTextField" destination="Xz1-Jv-ozv" id="YVI-Vn-s7J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
