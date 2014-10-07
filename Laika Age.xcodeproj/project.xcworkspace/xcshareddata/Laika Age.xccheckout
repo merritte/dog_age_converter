@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0C051AA0-5F9F-4751-8946-0A684BEAEE48</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Laika Age</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0C38A2C2B4A498C0C552EAB35F3AD1619E9C5C4F</key>
+		<string>https://github.com/merritte/dog_age_converter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Laika Age.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0C38A2C2B4A498C0C552EAB35F3AD1619E9C5C4F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/merritte/dog_age_converter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0C38A2C2B4A498C0C552EAB35F3AD1619E9C5C4F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0C38A2C2B4A498C0C552EAB35F3AD1619E9C5C4F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>3_Laika_Age</string>
+		</dict>
+	</array>
+</dict>
+</plist>
