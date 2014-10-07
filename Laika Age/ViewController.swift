@@ -31,12 +31,16 @@ class ViewController: UIViewController {
         let optionalDoubleFromTextField = Double((stringFromTextField as NSString).doubleValue)
         var realDogYears:Double
         
-        if optionalDoubleFromTextField > 2 {
-            realDogYears = (10.5 * 2) + (optionalDoubleFromTextField - 2) * 4
+        if optionalDoubleFromTextField <= 1 {
+            realDogYears = optionalDoubleFromTextField * 16
+        }
+        else  if optionalDoubleFromTextField <= 2 {
+            realDogYears = ((optionalDoubleFromTextField - 1) * 8 + 16)
         }
         else {
-            realDogYears = optionalDoubleFromTextField * 10.5
+            realDogYears = ((optionalDoubleFromTextField - 2) * 4 + 24)
         }
+
         
         dogYearsLabel.text = "\(realDogYears)"
         dogYearsLabel.hidden = false
@@ -46,16 +50,14 @@ class ViewController: UIViewController {
 }
 
 
-
+// if optionalDoubleFromTextField > 2 {
+//    realDogYears = (10.5 * 2) + (optionalDoubleFromTextField - 2) * 4
+// }
+//    
+// else {
+//    realDogYears = optionalDoubleFromTextField * 10.5
+// }
 //
-//    @IBAction func dogAgePressed(sender: AnyObject) {
-//        let stringFromTextField = dogAgeTextField.text
-//        let optionalIntFromTextField = stringFromTextField.toInt()
-//        let intFromOptional = optionalIntFromTextField!
-//
-//
-//        if int
-//        dogYearsLabel.text = "\(intFromOptional * 7)"
-//        dogYearsLabel.hidden = false
-//        dogAgeTextField.resignFirstResponder()
-//    }
+// dogYearsLabel.text = "\(realDogYears)"
+// dogYearsLabel.hidden = false
+// enterHumanYearsTextField.resignFirstResponder()
